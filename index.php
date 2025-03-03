@@ -19,19 +19,19 @@
                 <form action="login.php" name="form-login" class="form-login" method="post">
                     <fieldset>
                         <label for="user">Usuário</label>
-                        <input type="text" name="c-user" id="user" placeholder="Nome de usuário">
+                        <input type="text" name="c-user" id="user" placeholder="Nome de usuário"/>
                     </fieldset>
                     <fieldset>
                         <label for="senha">Senha</label>
-                        <input type="password" name="c-senha" id="senha" placeholder="senha">
+                        <input type="password" name="c-senha" id="senha" placeholder="senha"/>
                     </fieldset>
                     <fieldset>
-                        <input type="checkbox" name="c-chk" id="chk">
+                        <input type="checkbox" name="c-chk" id="chk"/>
                         <label for="chk">Mantenha conectado</label>
                         <a href="senha.php">Recuperar senha</a>
                     </fieldset>
                     <fieldset>
-                        <input type="submit" name="btn-entrar" id="entrar" value="Entrar">
+                        <input type="submit" name="btn-entrar" id="entrar" value="Entrar"/>
                     </fieldset>
                 </form>
             </div>
